@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* setting the background image*/
+body{
+    height: 100%;
+    background: url(img/Back_des.png);
+    background-size :100%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+/*header{
+    font-family: 'Bruno Ace', cursive;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+    background-color: #000;
+
+}*/
+/*.container {
+    height: 200px;
+    position: relative;
+  }*/
+
+  /*deciding the position of the button*/
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  /*editing the style of the button*/
+  button {
+    size: 100px;
+    font-size: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #000;
+    border: .5px solid crimson;
+    border-radius: 10px;
+    color: crimson;
+    padding: 8px;
+    box-shadow: 0 0 30px 0 crimson,
+                0 0 30px 0 crimson,
+                0 0 10px 0 crimson inset;
+  }
+/*.text-center{
+    text-align: center;
+}
+.btn btn-info{
+    height:200px;
+    position:relative;
+    border:3px solid green;
+
+}*/
+#start{
+    font-size: 35px;
+}
+button:hover{
+    transform:translate(5px);
+    transition:0.3s
+}
+/*footer{
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#000;
+}*/
